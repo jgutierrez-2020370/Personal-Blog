@@ -1,4 +1,4 @@
-import { Schema } from "mongoose";
+import { model, Schema } from "mongoose";
 
 const postSchema = Schema(
     {
@@ -29,4 +29,4 @@ const postSchema = Schema(
     }
 )
 
-export default model('Company', companySchema)
+export default model('Post', postSchema)

@@ -5,6 +5,8 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import cors from 'cors' 
 import { limiter } from '../middlewares/rate.limit.js'
+import postRoutes from '../src/post/post.routes.js'
+import commentaryRoutes from '../src/commentary/commentary.routes.js'
 
 const configs = (app)=> {
     app.use(express.json())
@@ -17,6 +19,8 @@ const configs = (app)=> {
 }
 
 const routes = (app)=> {
+    app.use('/Post', postRoutes)
+    app.use('/Comentary', commentaryRoutes)
 }
 
 export const initServer = async()=>{

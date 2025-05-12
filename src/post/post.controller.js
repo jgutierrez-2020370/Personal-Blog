@@ -1,4 +1,4 @@
-import Post from './post.model'
+import Post from './post.model.js'
 
 export const addPost = async (req, res) =>{
     try {
@@ -41,7 +41,7 @@ export const getPosts = async(req, res) =>{
             )
         }
 
-        return res.send(200).send(
+        return res.status(200).send(
             {
                 succes: true,
                 message: 'Publications found',
