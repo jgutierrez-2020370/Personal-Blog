@@ -11,7 +11,16 @@ const commentaryModel = Schema(
             type: String,
             required: [true, 'Description is required'],
             maxLength: [125, 'Description cannot be more than 125 characters'],
+        },
+
+        post:{
+            type: Schema.Types.ObjectId,
+            ref: 'Post',
+            required: [true, 'Post is required']
         }
+    },
+    {
+        timeStamps: true
     }
 )
 
