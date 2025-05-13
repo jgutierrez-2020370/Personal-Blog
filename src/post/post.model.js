@@ -16,7 +16,7 @@ const postSchema = Schema(
         course:{
             type: String,
             required: [true, 'Course is required'],
-            values: ['Taller', 'Tecnología', 'TICs', 'Práctica Supervisada'],
+            enum: ['Taller', 'Tecnología', 'TICs', 'Práctica Supervisada'],
         },
         publicationDate:{
             type: Date,
