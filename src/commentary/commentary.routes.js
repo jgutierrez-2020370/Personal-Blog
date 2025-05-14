@@ -1,17 +1,17 @@
 import { Router } from "express"
-import { addCommentary, getCommentaries } from "./commentary.controller.js"
+import { addCommentary, getPostCommentaries } from "./commentary.controller.js"
 
 const api = Router()
 
-api.get(
-    '/',
-    getCommentaries
-)
 
 api.post(
     '/',
     addCommentary
 )
 
+api.get(
+    '/:postId',
+    getPostCommentaries
+)
 
 export default api

@@ -45,10 +45,10 @@ export const addCommentary = async(req, res)=>{
     }
 }
 
-export const getCommentaries = async(req, res)=>{
+export const getPostCommentaries = async(req, res)=>{
     try {
-        const comnentaries = await Commentary.find()
-            .populate('post')
+        const {postId} = req.params
+        const comnentaries = await Commentary.find({post: postId})
 
         if(!comnentaries) {
             return res.status(404).send(

@@ -17,11 +17,13 @@ const commentaryModel = Schema(
             type: Schema.Types.ObjectId,
             ref: 'Post',
             required: [true, 'Post is required']
+        },
+
+        date:{
+            type: Date,
+            default: Date.now
         }
     },
-    {
-        timeStamps: true
-    }
 )
 
 export default model('Commentary', commentaryModel)

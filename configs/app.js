@@ -12,7 +12,7 @@ const configs = (app)=> {
     app.use(express.json())
     app.use(express.urlencoded({extended:false}))
     app.use(cors())
-    app.use(limiter)
+    //app.use(limiter)
     app.use(helmet())
     app.use(morgan('dev'))
 
@@ -20,7 +20,7 @@ const configs = (app)=> {
 
 const routes = (app)=> {
     app.use('/Post', postRoutes)
-    app.use('/Comentary', commentaryRoutes)
+    app.use('/Commentaries', commentaryRoutes)
 }
 
 export const initServer = async()=>{
