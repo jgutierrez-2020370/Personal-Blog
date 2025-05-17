@@ -1,0 +1,1510 @@
+{
+	"info": {
+		"_postman_id": "4657542c-8236-48e9-b87c-ef757f674589",
+		"name": "PersonalBlog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37951891"
+	},
+	"item": [
+		{
+			"name": "Area-Bajo-Curva",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Area-Bajo-Curva",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Cálculo del área bajo la curva",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-10-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Area-Bajo-Curva.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Capacitores",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Capacitores",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "DRUD gestor de capacitores",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-10-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Capacitores.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calculadora-Cientifica-Switch-JAVA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Calculadora-Cientifica-Switch-JAVA",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Calculadora científica hecha en java con la aplicacion de un switch",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-07-12",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Calculadora-Cientifica-Switch-JAVA.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pseudocodigo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Pseudocodigo",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Proyectos hechos con pseudocódigo",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-04-23",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Pseudocodigo.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicios-Basicos-JAVA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ejercicios-Basicos-JAVA",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Repositorio con ejercicios básicos en java",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-04-26",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Ejercicios-Basicos-JAVA.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejecicio-contrareloj-JAVA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ejecicio-contrareloj-JAVA",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Ejercicios básicos contrareloj en java",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-05-03",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Ejecicio-contrareloj-JAVA.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pilares-POO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Pilares-POO",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Programas aplicando pilares de programación",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-06-14",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Pilares-POO.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CRUD-Básico-Persona-Libro-Carro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "CRUD-Básico-Persona-Libro-Carro",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "CRUDs básicos de personas. libros y carros",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-06-14",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/CRUD-B-sico-Persona-Libro-Carro.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BattleShip",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "BattleShip",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Juego BattleShip javaScript",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TICs",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-07-10",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/BattleShip.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Compra-Muebles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Compra-Muebles",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema de compra de muebles con MVC",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-07-04",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Compra-Muebles.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calculo-Area-Figuras",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Calculo-Area-Figuras",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Programa en java, cálculo del area de una figura",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-07-27",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Calculo-Area-Figuras.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DB-Ejercicios-SQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "DB-Ejercicios-SQL",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Bases de datos con diferentes ejemplo SQL",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-09-6",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/DB-Ejercicios-SQL.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sistema-Bancos-SQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sistema-Bancos-SQL",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "DCL-DDL-DML de un sistema de bancos SQL",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-09-12",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Sistema-Bancos-SQL.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DB-SQL-DDL-Comercios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "DB-SQL-DDL-Comercios",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Archivos SQL de diferentes tipos de comercios",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2023-08-30",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/DB-SQL-DDL-Comercios.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DB-Clientes-JOINS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "DB-Clientes-JOINS",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Base de datos de clientes y pedidos usando Joins",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-01-24",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/DB-Clientes-JOINS.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-Calculadora-Java-JavaSwing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ejercicio-Calculadora-Java-JavaSwing",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Ejercicios sencillos - Calculadora con Java Swing",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-02-27",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Ejercicio-Calculadora-Java-JavaSwing.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Control-Personal-SQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Control-Personal-SQL",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema de control de personal SQL",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-02-21",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Control-Personal-SQL.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Control-Ventas-Triggers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Control-Ventas-Triggers",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Control de ventar con el uso de Triggers y Procedimientos Alamacenados",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-02-14",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Control-Ventas-Triggers.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicios-Matematicos-SQL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ejercicios-Matematicos-SQL",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Diferentes ejercicios SQL con triggers",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-02-13",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Ejercicios-Matematicos-SQL.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KinalStore",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "KinalStore",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema gestor de un supermercado con JavaFX",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-06-03",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/KinalStore.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calculadora-Grafica",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Calculadora-Grafica",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Calculadora cientéfica con JavaFX",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-06-03",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Calculadora-Grafica.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Java-EE-Servlet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Java-EE-Servlet",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Ejercicio control de emleados con un servlet implementado",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-07-10",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Java-EE-Servlet.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pagina-Web",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Pagina-Web",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Página web acerca de gustos personales",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Tecnología",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2024-07-01",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/Pagina-Web.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgendaTelefonica",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "AgendaTelefonica",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Agenda Telefonica con HTML, CSS y JS",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Práctica Supervisada",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-01-25",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/AgendaTelefonica.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CollegeSystem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "CollegeSystem",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema gestor de alumnos con NodeJs",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Práctica Supervisada",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-02-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/CollegeSystem.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OpinionManagementSystem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "OpinionManagementSystem",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema de gestión de opiniones",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Práctica Supervisada",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-02-22",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/OpinionManagementSystem.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Almacenadora",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Almacenadora",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema gestor de una almacenadora",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Práctica Supervisada",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-05-04",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/sgomez-2020088/almacenadoraSystem.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AdoptionSystem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "AdoptionSystem",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema gestor de apodción con NodeJs",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-02-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/AdoptionSystem.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COPEREX",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "COPEREX",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema facilitador para la gestión de empresas de COPEREX",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-03-02",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/COPEREX.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StoreManagementSystem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "StoreManagementSystem",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sistema gestión de una tienda",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "Taller",
+							"type": "text"
+						},
+						{
+							"key": "publicationDate",
+							"value": "2025-03-07",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://github.com/jgutierrez-2020370/StoreManagementSystem.git",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3600/Post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3600",
+					"path": [
+						"Post",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
